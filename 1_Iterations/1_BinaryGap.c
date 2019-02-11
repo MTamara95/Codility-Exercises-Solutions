@@ -1,3 +1,5 @@
+// task: https://app.codility.com/programmers/lessons/1-iterations/binary_gap
+
 int solution(int N) {
 
     int max = 0, counter = 0;
