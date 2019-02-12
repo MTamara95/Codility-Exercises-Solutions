@@ -10,7 +10,6 @@ int solution(int A[], int N) {
             return 0;
         B[i] = i+1;
     }
-    printf("\n");
     
     for(i = 0; i < N; i++){
         B[A[i]-1] = 0; /* all elements A[i] are in range [1,N] */
@@ -24,7 +23,5 @@ int solution(int A[], int N) {
     }
     
     free(B);
-        
     return ind;
-    
 }
